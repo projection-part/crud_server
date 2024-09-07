@@ -6,7 +6,7 @@ import cors from "cors";
 import route from "./routes/userRoute.js";
 
 const corsOptions = {
-    origin: 'http://localhost:3000', // Replace with your client's domain
+    origin: 'https://crud-client-tau.vercel.app', // Replace with your client's domain
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // if your client needs to send cookies with the requests
   };
