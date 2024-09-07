@@ -12,8 +12,9 @@ const corsOptions = {
   };
 
 const app = express();
-app.use(bodyParser.json());
 app.use(cors(corsOptions));
+app.use(bodyParser.json());
+
 dotenv.config();
 
 
